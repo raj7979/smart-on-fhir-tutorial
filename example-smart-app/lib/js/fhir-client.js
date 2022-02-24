@@ -11901,7 +11901,7 @@ function () {
           debug("The ID of the selected patient is not available. Please check if your server supports that.");
         }
 
-        return 44;
+        return null;
       }
 
       return tokenResponse.patient;
